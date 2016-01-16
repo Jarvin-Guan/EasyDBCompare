@@ -1,0 +1,10 @@
+{
+  "name": "easydbcompare",
+  "version": "1.0.0",
+  "description": "database compare ",
+  "main": "index.html",
+  "author": "jarvin",
+  "window":{
+      "toolbar": false
+  }
+}
