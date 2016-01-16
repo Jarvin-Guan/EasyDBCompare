@@ -31,3 +31,5 @@ node_modules
 bin
 
 .DS_Store
+
+.diea
