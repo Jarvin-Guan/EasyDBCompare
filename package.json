@@ -4,7 +4,21 @@
   "description": "database compare ",
   "main": "index.html",
   "author": "jarvin",
-  "window":{
-      "toolbar": false
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^1.0.2",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "window": {
+    "toolbar": false,
+    "frame": true
+  },
+  "platformOverrides": {
+    "win": {
+      "window": {
+        "frame": true
+      }
+    }
   }
 }

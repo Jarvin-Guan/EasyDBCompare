@@ -1,0 +1,14 @@
+{
+  "main": "index.html",
+  "name": "dbcompaire",
+  "version": "0.1.0",
+  "window": {
+    "toolbar": true
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "deck":"latest"
+  }
+}

@@ -33,3 +33,7 @@ bin
 .DS_Store
 
 .idea/
+
+# nw build
+build
+cache
