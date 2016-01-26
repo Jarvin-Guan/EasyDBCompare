@@ -11,7 +11,7 @@ module.exports = function (grunt) {
                 'index.html',
                 'package.json',
                 './public/**/*',
-                './node_module/**/*'
+                './node_modules/mysql/**/*'
             ]
         }
     });

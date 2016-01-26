@@ -5,11 +5,21 @@
   "main": "index.html",
   "author": "jarvin",
   "devDependencies": {
-    "grunt-node-webkit-builder": "^1.0.2"
+    "grunt-node-webkit-builder": "^1.0.2",
+    "mysql": "felixge/node-mysql"
   },
   "window": {
-    "toolbar": false,
-    "frame": true
+    "title": "node-webkit demo",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
   },
   "platformOverrides": {
     "win": {
